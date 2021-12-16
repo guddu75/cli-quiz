@@ -1,0 +1,21 @@
+{
+    "name": "cli-quiz",
+    "description": "CLI that takes a technical quiz",
+    "version": "0.0.1",
+    "bin": {
+        "cli-quiz": "index.js",
+        "quiz": "index.js"
+    },
+    "author": {
+        "name": "Debapriya Majumder",
+        "email": "guddumajumder75@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "cli-handle-unhandled": "^1.1.1",
+        "cli-meow-help": "^2.0.2",
+        "cli-welcome": "^2.2.2",
+        "meow": "^9.0.0",
+        "terminal-alerts": "^0.0.1"
+    }
+}
